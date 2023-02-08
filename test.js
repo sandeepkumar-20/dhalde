@@ -1,15 +1,15 @@
 const StudentDB = require('./StudentDB');
 
 
-// StudentDB.init("./dbjson.json");
+StudentDB.init("./dbjson.json");
 StudentDB.create({
     name: "Dipesh",
     age: 55,
-    gender: 'M'
+    gender: "M"
 });
 
 // StudentDB.update({
-//     id: 1,
+//     id: "7311130",
 //     name: "Aks",
 //     age: 55,
 //     gender: 'M'
